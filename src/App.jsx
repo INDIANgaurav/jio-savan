@@ -1,11 +1,18 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-
+import { BrowserRouter , Routes , Route } from 'react-router-dom'
+import Home from './pages/Home'
+import AlbumDetails from './pages/AlbumDetails'
 const App = () => {
   return (
-    <div>
-      hello world
-    </div>
+    <BrowserRouter>
+    <Routes>
+
+    <Route  path='/' element={<Home/>}   />
+    <Route  path='/albums/:id' element={<AlbumDetails/>}   />
+
+    </Routes>
+    </BrowserRouter>
   )
 }
 
