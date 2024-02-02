@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="flex justify-between items-center py-3 border-none 
-      lg:border px-2 fixed top-0 left-0 right-0 bg-[#f5f5f5ff] z-20">
+      lg:border px-2 fixed top-0 left-0 right-0 bg-[#f5f5f5ff] z-20 ">
         {/* 1st div */}
 
         <div className="flex flex-col lg:flex-row justify-between items-center max-auto lg:mx-0">
@@ -13,7 +13,7 @@ const Navbar = () => {
         <img src="/savan-logo.png" alt="logo" width={37}  />
         <Link href="/" className="font-extrabold text-lg ">JioSavan</Link>
     </div>
-    <div className="flex text-[24px]   lg:text-[15px] gap-5 text-gray-600 font-semibold h-full">
+    <div className="flex text-[24px]    lg:text-[15px] gap-5 text-gray-600 font-semibold h-full">
         <li className="list-none ">Music</li>
         <li className="list-none ">Podcast</li>
         <li className="list-none ">Gopro</li>
